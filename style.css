@@ -1,0 +1,2537 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+
+/* ::::::::::::::::::::::::::::::::::: Popup CSS Open ::::::::::::::::::::::::::::::::::: */
+
+.popup-img {
+    max-width: 100%;
+    margin-top: 15%;
+}
+.popup-content h4 {
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.popup-content h3 {
+    font-size: 36px;
+    color: #45177f;
+    text-transform: uppercase;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.popup-content h3 > span {
+    font-weight: 700;
+    color: #e421a0;
+    background: #ffdb2f;
+    padding: 0 5px;
+    display: inline-block;
+    border-radius: 4px;
+}
+.inp1 {
+    margin-bottom: 15px;
+    border-radius: 16px;
+    padding: 13px 16px;
+    font-size: 14px;
+    width: 100%;
+    background-color: #fff;
+    color: #495057;
+    border: 1px solid #ced4da;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out !important;;
+}
+#inp2 {
+    height: 100px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 13px 16px;
+    font-size: 14px;
+    width: 100%;
+    color: #495057;
+    border: 1px solid #ced4da;
+    background-color: #fff;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out !important;;
+}
+.btn6 {
+    background: linear-gradient(90deg, rgba(236,108,37,1) 0%, rgba(236,58,37,1) 100%) !important;
+    color: #fff;
+    width: 100%;
+    border-radius: 20px;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 700;
+    box-shadow: 0 5px 15px #0000002e;
+    border: 1px solid transparent;
+}
+.cont {
+    max-width: 900px !important;
+}
+.fancybox-content {
+    padding: 20px !important;
+}
+
+/* ::::::::::::::::::::::::::::::::::: Popup CSS Close :::::::::::::::::::::::::::::::::: */
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++ Navbar CSS open ++++++++++++++++++++++++++++++++++++++ */
+
+.Logo {
+    width: 60%;
+    height: auto;
+}
+a.nav-link {
+    font-size: 14px !important;
+    font-weight: 700;
+    color: #353535 !important;
+}
+a.nav-link:hover {
+    color: #ffda00 !important;
+    transition: 0.4s;
+}
+.Hding1 {
+    font-size: 18px;
+    color: #353535;
+    font-weight: 600;
+    margin: 0;
+}
+.Hding1:hover {
+    color: #ffda00;
+    text-decoration: none;
+    transition: 0.4s;
+}
+/* .Navbar-Sect {
+    background-color: #090b2a;
+    display: none;
+} */
+.Navbar-Sect {
+    display: none;
+}
+.Navbar-Sect2 {
+    background-color: #090b2a;
+    padding: 15px 0;
+    position: relative;
+}
+ul.navba-ulli {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a#li-HDING {
+    color: #c6cbd1 !important;
+    font-weight: 700;
+    font-size: 14px !important;
+}
+a#li-HDING:hover {
+    color: #ffda00 !important;
+    transition: .5s all;
+}
+#PC-None {
+    display: none !important;
+}
+.Home-Icon {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.Msg-Call-Flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.Hding3 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0;
+    cursor: pointer;
+}
+.Hding3:hover {
+    color: #fff;
+    text-decoration: none;
+}
+section.Navbar-Sect-PC {
+    position: relative;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++ Navbar CSS Close +++++++++++++++++++++++++++++++++++++ */
+
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++ Scet 1 CSS Open +++++++++++++++++++++++++++++++++++++ */
+
+section.sect1 {
+    margin: -240px 0 0 0;
+    background-color: #f8f7fc;
+}
+.Bg-BACK {
+    background-image: url(img/Home-Banner.png);
+    background-position: 30%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    padding-top: 250px;
+}
+.Content1 {
+    margin-top: 10%;
+}
+.Creative-Text {
+    max-width: 100%;
+}
+.Hding2 {
+    color: #ec3a25;
+    font-size: 62px;
+    font-weight: 700;
+    font-family: 'IBM Plex Serif', serif;
+    margin: 0;
+}
+.Hding2::before {
+    content: "";
+    background: url(img/Bg-Head.png) no-repeat;
+    /* max-width: 570px; */
+    width: 105%;
+    height: 156px;
+    position: absolute;
+    background-size: 100%;
+    left: -15px;
+    top: 76px;
+}
+span.bfor::before {
+    position: absolute;
+    content: "";
+    width: 307px;
+    height: 12px;
+    left: 0px;
+    bottom: 270px;
+    background: #fed92f;
+    z-index: -1;
+}
+.strong1 {
+    color: #262627;
+    font-size: 58px;
+    font-weight: 700;
+    margin: 15px 0 0 0;
+    font-family: 'IBM Plex Serif', serif;
+}
+.para {
+    color: #6e6e6e;
+    font-size: 16px;
+    margin: 20px 0 25px 0;
+    line-height: 24px;
+}
+.btn1 {
+    font-size: 18px;
+    background: linear-gradient(90deg, rgba(236,108,37,1) 0%, rgba(236,58,37,1) 100%) !important;
+    color: #fff !important;
+    font-weight: 700;
+    padding: 15px 30px;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    /* box-shadow: 0 5px 15px #0000002e; */
+    text-transform: uppercase;
+}
+.btn1:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.btn1 span {
+    width: 10px;
+    height: 10px;
+    /* position: relative; */
+    background: #000;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 7px;
+    border: 2px solid #ffda2f;
+}
+.btn2 {
+    font-size: 18px;
+    /* background: linear-gradient(90deg, rgba(236,108,37,1) 0%, rgba(236,58,37,1) 100%) !important; */
+    color: #000;
+    font-weight: 700;
+    padding: 15px 30px;
+    border-radius: 15px;
+    border: 1px solid #dfdde9;
+    box-shadow: 0 5px 15px #0000002e;
+    text-transform: uppercase;
+}
+.btn2 span {
+    width: 10px;
+    height: 10px;
+    /* position: relative; */
+    background: #000;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 7px;
+    border: 2px solid #ffda2f;
+}
+.btn2:hover {
+    color: #000;
+    text-decoration: none;
+}
+.btn12-flex {
+    margin: 40px 0 0 0;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+img.v2 {
+    /* width: 100%; */
+    position: absolute;
+    top: 25px;
+    left: 4px;
+}
+.Home-img-1 {
+    width: 100%;
+    transition: 0.5s;
+}
+.Home-img-1:hover {
+    transform: scale(1.1);
+}
+img.Home-Laptop {
+    position: absolute;
+    /* width: 100%; */
+    left: 320px;
+    top: 280px;
+}
+.img.Home-Mob {
+    position: absolute;
+    top: 380px;
+    left: 100px;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++ Scet 1 CSS Close +++++++++++++++++++++++++++++++++++++ */
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++ Scet 2 CSS Open +++++++++++++++++++++++++++++++++++++ */
+
+/* .Scroll::before {
+        position: absolute;
+        left: 0;
+        background: #fde36c;
+        width: 150px;
+        height: 150px;
+        top: -50px;
+        content: "";
+        border-radius: 50%;
+        z-index: -3;
+} */
+.Thumbnail {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 60px 10px 10px 10px;
+    box-shadow: 0 5px 15px #00000014;
+}
+.sect2 {
+    background-color: #f8f7fc;
+    padding: 30px 0;
+    position: relative;
+    z-index: -2;
+}
+.Thumbnail-12345 img {
+    max-width: 100%;
+}
+.Hding5 {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #000;
+    font-family: 'Zilla Slab', serif;
+    margin-top: 15px;
+}
+.sect2::after {
+    position: absolute;
+    left: 70px;
+    background: #fde36c;
+    width: 150px;
+    height: 150px;
+    top: 65px;
+    content: "";
+    border-radius: 50%;
+    z-index: -3;
+}
+.Thumbnail::after {
+    content: "";
+    background: url(img/bg2.png) no-repeat;
+    max-width: 252px;
+    width: 100%;
+    height: 252px;
+    position: absolute;
+    background-size: 100%;
+    left: 9%;
+    top: 5px;
+    z-index: -2;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++ Scet 2 CSS Close ++++++++++++++++++++++++++++++++++++ */
+
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++ Scet 3 CSS Open +++++++++++++++++++++++++++++++++++++ */
+
+.Hding4 {
+    color: #848488;
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0;
+    font-family: 'IBM Plex Serif', serif;
+    text-align: center;
+}
+.Hding4::before {
+    content: "";
+    position: absolute;
+    background: #ffda2f;
+    bottom: 0;
+    left: 0;
+    width: 280px;
+    height: 12px;
+    z-index: -1;
+    right: 0;
+    margin: 0 auto;
+}
+.Home-3 {
+    margin-top: 70px;
+}
+.para1 {
+    font-size: 16px;
+    color: #7c7c82;
+}
+.Home-System-img {
+    width: 100%;
+    transition: 0.5s;
+}
+.Home-System-img:hover {
+    transform: scale(1.1);
+}
+.sect2 {
+    padding: 50px 0;
+    background-color: #f8f7fc;
+}
+.Sect3 {
+    background-color: #f8f7fc;
+    padding: 50px 0;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++ Scet 3 CSS Close ++++++++++++++++++++++++++++++++++++ */
+
+
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++ Scet 4 CSS Open ++++++++++++++++++++++++++++++++++++ */
+
+.sect4 {
+    background-image: url(img/Bg-Vision.jpg);
+    background-size: cover;
+    background-position: 90%;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.Hding6 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #848488;
+    font-family: 'IBM Plex Serif', serif;
+    margin: 0;
+}
+.Hding7 {
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0;
+    font-family: 'IBM Plex Serif', serif;
+    color: #262627;
+    position: relative;
+    z-index: 1;
+}
+.Hding7::before {
+        content: "";
+        position: absolute;
+        background: #ffda2f;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 280px;
+        height: 12px;
+        z-index: -1;
+}
+.para2 {
+    font-size: 17px;
+    max-width: 82%;
+    color: #7c7c82;
+    margin: 20px 0 10px 0;
+}
+
+.Info-Vision {
+    padding: 0;
+    list-style: none;
+}
+.Info-Vision li::before {
+        position: absolute;
+        content: "";
+        left: 0;
+        bottom: -12px;
+        width: 200px;
+        height: 4px;
+        background: rgb(255,255,255);
+        background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,218,47,1) 70%);
+}
+.vis {
+    max-width: 100%;
+    margin-right: 40px;
+}
+.Info-Vision li {
+    font-size: 24px;
+    color: #3f3694;
+    font-weight: 600;
+    margin-top: 25px;
+    position: relative;
+}
+.Our-system {
+    margin-top: 40px;
+}
+/* .Main-Sect4 .row::after {
+        content: "";
+        background: url(img/Down.png) no-repeat;
+        max-width: 36px;
+        width: 100%;
+        height: 93px;
+        position: absolute;
+        background-size: 100%;
+        left: -80px;
+        top: -20px;
+        z-index: 1;
+} */
+
+.btn12-flex2 {
+    margin: 50px 0 0 0;
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++ Scet 4 CSS Close +++++++++++++++++++++++++++++++++++ */
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++ Scet 5 CSS Open +++++++++++++++++++++++++++++++++++ */
+
+.sect5 {
+    background: #f8f7fd;
+    padding: 30px 0 90px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    clear: both;
+}
+.Hding8 {
+    font-size: 40px;
+    color: #353535;
+    font-weight: 600;
+    margin-bottom: 40px;
+    font-family: 'IBM Plex Serif', serif;
+    text-align: center;
+}
+.owl-carousel .owl-item img {
+    display: block;
+    width: 60% !important;
+    /* border-radius: 100%; */
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sect5::after {
+    content: "";
+    background: url(img/bg4.png) no-repeat;
+    max-width: 290px;
+    width: 100%;
+    height: 121px;
+    position: absolute;
+    background-size: 100%;
+    left: 10px;
+    bottom: 120px;
+    z-index: -2;
+}
+
+
+/* ++++++++++++++++++++++++++++++++++++++ Scet 5 CSS Close +++++++++++++++++++++++++++++++++++ */
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++ Scet 6 CSS Open +++++++++++++++++++++++++++++++++++ */
+
+.sect6 {
+    padding: 60px 0 40px 0;
+    position: relative;
+    z-index: 1;
+    clear: both;
+}
+.Hding9 {
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0;
+    font-family: 'IBM Plex Serif', serif;
+    color: #262627;
+    position: relative;
+    z-index: 1;
+}
+.Hding9::before {
+        content: "";
+        position: absolute;
+        background: #ffda2f;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 280px;
+        height: 12px;
+        z-index: -1;
+        margin: 0 auto;
+}
+.sect6::before {
+    content: "";
+    position: absolute;
+    background: url(img/bg5.png) no-repeat;
+    max-width: 344px;
+    height: 339px;
+    width: 100%;
+    background-size: 100%;
+    right: 0;
+    top: -120px;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++ Scet 6 CSS Close +++++++++++++++++++++++++++++++++++ */
+
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++ Scet 7 CSS Open +++++++++++++++++++++++++++++++++++ */
+
+
+.hide {
+    display: none;
+  }
+  /* .map-container {
+    text-align: center;
+  } */
+.img1to4 {
+    width: 100%;
+    transition: 0.4s;
+}
+.img1to4:hover {
+    transform: scale(1.1);
+}
+.Content-Systeml-img {
+    margin-top: 22px;
+}
+button.map-point-sm {
+    color: #858588;
+    cursor: pointer;
+    padding: 5px 15px;
+    font-weight: 600;
+    font-size: 21px;
+    background: transparent;
+    width: auto;
+    border: 1px solid #fff;
+    transition: all .2s ease-in;
+}
+button.map-point-sm:hover {
+    color: #000;
+}
+button.map-point-sm::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 15px solid red;
+    border-left: 15px solid transparent;
+    z-index: -1;
+    left: 260px;
+    top: 12px;
+    transition: all .5s linear;
+}
+button.map-point-sm::before {
+    opacity: 1;
+}
+button:focus {
+    outline: 1px dotted !important;
+    /* outline: 5px auto -webkit-focus-ring-color; */
+    border: 1px solid transparent;
+}
+.sect7 {
+    padding: 0px 0 30px 0;
+    position: relative;
+    z-index: 1;
+}
+  
+/* .sect7::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 15px solid red;
+    border-left: 15px solid transparent;
+    transition: .5s all;
+    -webkit-transition: all .5s linear;
+    -moz-transition: all .5s linear;
+    -ms-transition: all .5s linear;
+    -o-transition: all .5s linear;
+    transition: all .5s linear;
+    left: -4px;
+    top: 11px;
+    z-index: -1;;
+    opacity: 0;
+} */
+
+/* ++++++++++++++++++++++++++++++++++++++ Scet 7 CSS Close +++++++++++++++++++++++++++++++++++ */
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++ Scet 8 CSS Open +++++++++++++++++++++++++++++++++++ */
+
+.sect8 {
+    padding: 60px 0;
+    position: relative;
+    z-index: 1;
+    background-color: #f8f7fd;
+    overflow: hidden;
+}
+.para3 {
+    font-size: 18px;
+    color: #7c7c82;
+    margin: 20px 0;
+    position: relative;
+    font-weight: 500;
+}
+.para3::before {
+        content: "";
+        width: 30%;
+        height: 5px;
+        position: absolute;
+        background: #3f3694;
+        top: 50px;
+        left: -5%;
+}
+.sect8::before {
+    left: 885px;
+    content: "";
+    width: 25%;
+    height: 5px;
+    position: absolute;
+    right: 0%;
+    bottom: 0;
+    top: 24.5%;
+    background: #b63098;
+}
+/* .para3::after {
+        left: inherit;
+        right: -10%;
+        bottom: 0;
+        top: inherit;
+        background: #b63098;
+} */
+.pack-inn {
+    padding: 40px 12px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px #0000000d;
+    position: relative;
+    z-index: 1;
+    transition: .5s all;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.pack-inn:hover {
+    background: #f45051;
+}
+.pac-header:hover * {
+    color: #fff;
+}
+.Hding10:hover * {
+    color: #fff;
+}
+.Hding10 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.para4:hover * {
+    color: #fff;
+}
+.para4 {
+    color: #7c7c82;
+}
+.Hding11:hover * {
+    color: #fff;
+}
+.Hding11 {
+    font-size: 70px;
+    font-weight: 500;
+    letter-spacing: -5px;
+}
+.Eighti:hover * {
+    color: #ffda00;
+}
+.Eighti {
+    font-size: 26px;
+    font-weight: 500;
+    margin: -10px 0 0 0;
+    letter-spacing: -2px;
+}
+.Custom-Scrollbar:hover * {
+    color: #fff;
+}
+.Custom-Scrollbar {
+    list-style: none;
+    padding: 0;
+    margin-right: 15px;
+    height: 180px;
+}
+.Custom-Scrollbar li {
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 6px;
+    transition: .5s all;
+}
+.text-scroll {
+    overflow: auto;
+    resize: none;
+    width: 100%;
+    height: 180px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.btn3 {
+    border-radius: 50px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    box-shadow: 0 5px 15px #0000002e;
+    border: 1px solid transparent;
+    background-color: #ffda00;
+    margin: 0 auto;
+    padding: 10px 40px;
+}
+.btn3:hover {
+    text-decoration: none;
+    color: #000;
+}
+.Pricing-List {
+    margin-top: 100px;
+}
+.pack-inn::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border: 2px solid #eaeaea;
+    border-radius: 20px;
+    transition: .5s all;
+    z-index: -1;
+}
+.pack-inn:hover::before {
+    border-color: #ffda00;
+    transform: translate(8px, 8px);
+}
+.bg-row::before {
+    content: "";
+    position: absolute;
+    background: url(img/bg5.png) no-repeat;
+    max-width: 344px;
+    height: 339px;
+    width: 100%;
+    background-size: 100%;
+    left: 10px;
+    top: 175px;
+    z-index: -1;
+}
+
+
+/* ++++++++++++++++++++++++++++++++++++++ Scet 8 CSS Close ++++++++++++++++++++++++++++++++++ */
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++ Scet 9 CSS Open ++++++++++++++++++++++++++++++++++ */
+
+.our-combo {
+    background: url(img/Bg-Combo.png) no-repeat;
+    background-color: #f8f7fd;
+    max-width: 100%;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-position: 50% top;
+    padding-top: 100px;
+    padding-bottom: 160px;
+    position: relative;
+    z-index: 1;
+    clear: both;
+}
+.Hding12 {
+    font-size: 55px;
+    font-weight: 600;
+    margin: 0;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 40px;
+}
+.Hding12::before {
+    content: "";
+    position: absolute;
+    background: #ffda2f;
+    bottom: 10px;
+    left: 0;
+    width: 280px;
+    height: 10px;
+    z-index: -1;
+}
+.combo-detail h4 {
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+}
+.combo-detail ul li {
+    color: #c0c6d3;
+    list-style-type: disc;
+}
+.combo-detail ul {
+    margin-left: 15px;
+    margin-bottom: 30px;
+    padding: 0;
+}
+.combo-detail {
+    display: inline-block;
+    vertical-align: text-top;
+    width: 49%;
+}
+.info-combo {
+    margin-top: -100px;
+}
+.info-combo::before {
+    position: absolute;
+    content: "";
+    left: -80px;
+    bottom: -131px;
+    background: url(img/bg6.png) no-repeat;
+    transform: skew(10deg, -2deg);
+    max-width: 957px;
+    height: 295px;
+    width: 130%;
+    background-size: cover;
+}
+.info-combo2 {
+    position: relative;
+    z-index: 1;
+    top: 56%;
+}
+.info-combo2 h4 {
+    font-size: 30px;
+    /* font-family: 'IBM Plex Serif', serif; */
+    /* letter-spacing: 1px; */
+    line-height: 40px;
+    color: #fff;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+.info-combo2 p {
+    color: #ff5b5b;
+    font-size: 23px;
+    margin-bottom: 25px;
+    position: relative;
+}
+.info-combo2 h4 + p::before {
+    content: "";
+    background: url(img/bg11.png) no-repeat;
+    max-width: 300px;
+    height: 51px;
+    position: absolute;
+    left: -57px;
+    top: -7px;
+    width: 100%;
+    background-size: 100%;
+    z-index: -1;
+}
+.info-combo2 ul li {
+    font-size: 16px;
+    margin: 0;
+    color: #c7c3d5;
+    font-weight: 600;
+    list-style-type: none;
+}
+.info-combo2 ul li a {
+    font-size: 16px;
+    color: #c7c3d5;
+    font-weight: 600;
+}
+.info-combo2 ul li span::before {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    content: "";
+    background: #2b1683;
+    border-radius: 50%;
+    z-index: -1;
+    left: 42%;
+    top: 70%;
+}
+.info-combo2 ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    gap: 20px;
+}
+.info-combo2 ul li a:hover {
+    text-decoration: none;
+}
+
+.combo-price {
+    position: relative;
+    margin-right: -20px;
+    top: 45%;
+    /* margin-top: -30px; */
+}
+.combo-price h5 {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 400;
+    text-decoration: line-through;
+    text-align: right;
+}
+.combo-price h3 {
+    font-size: 94px;
+    font-weight: 700;
+    color: #ffda2f;
+    margin-bottom: 5px;
+    text-align: right;
+    letter-spacing: -7px;
+}
+.combo-price h3 > span {
+    color: #fff;
+    font-size: 37px;
+    font-weight: 500;
+}
+/* .btn4 {
+    background-color: linear-gradient(to right, #DD5E89 0%, #F7BB97 51%, #DD5E89 100%) !important;
+    color: #fff;
+    box-shadow: 0 5px 15px #0000002e;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    position: relative;
+    margin: 0 auto;
+    padding: 12px 25px;
+    display: table;
+} */
+         
+.btn4 {
+    background-image: linear-gradient(to right, #6f22ff 0%, #d133eef0  51%, #d928fd  100%) !important;
+    /* margin: 10px; */
+    font-size: 15px;
+    font-weight: 700;
+    padding: 15px 25px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #fff;            
+    /* box-shadow: 0 0 20px #eee; */
+    border-radius: 15px;
+    display: table;
+    left: 20%;
+    position: relative;
+  }
+
+  .btn4:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+.btn4 > span {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    background: #000;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 5px;
+    border: 2px solid #ffda2f;
+}
+.img-all {
+    position: absolute;
+    top: 30px;
+    left: -10px;
+}
+.para5 {
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 13px;
+}
+.img-combo img {
+    max-width: 120%;
+    position: relative;
+    left: -20px;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++ Scet 9 CSS Close ++++++++++++++++++++++++++++++++++ */
+
+
+/* ++++++++++++++++++++++++++++++++++++++ Scet 10 CSS Open ++++++++++++++++++++++++++++++++++ */
+
+.sect10 {
+    position: relative;
+    z-index: 1;
+    padding: 60px 0 60px 0;
+    background-color: #f8f7fd;
+}
+.sect10 p {
+    font-size: 18px;
+    max-width: 80%;
+    color: #7c7c82;
+    margin: 15px auto;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++ Scet 10 CSS Close ++++++++++++++++++++++++++++++++++ */
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++ Scet 11 CSS Open ++++++++++++++++++++++++++++++++++ */
+
+.sect11 {
+    position: relative;
+    padding: 30px 0 60px 0;
+    background-color: #f8f7fd;
+    z-index: 1;
+}
+.count {
+    padding: 80px 0;
+    text-align: center;
+    position: relative;
+}
+.count::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: -80px;
+    top: 0;
+    background: rgb(163,43,158);
+    background: linear-gradient(45deg, rgba(163,43,158,1) 0%, rgba(91,23,181,1) 100%);
+}
+
+.info-count h4 {
+    font-size: 68px;
+    color: #9327a3;
+    /* font-family: 'Poppins',sans-serif; */
+    font-weight: 700;
+    margin-bottom: 0;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgb(255 255 255) 0%, rgb(242 201 62) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 5px transparent;
+}
+.info-count h6 {
+    color: #fff;
+    font-size: 16px;
+    margin: 0;
+    font-weight: 600;
+}
+.info-count img {
+    position: absolute;
+    top: -45px;
+    right: 32px;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++ Scet 11 CSS Close +++++++++++++++++++++++++++++++++ */
+
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++ Scet 12 CSS Open +++++++++++++++++++++++++++++++++ */
+
+.our-data {
+    position: relative;
+    z-index: 1;
+    background-color: #f8f7fd;
+    padding: 60px 0;
+}
+/* .info-data {
+    padding-left: 60px;
+} */
+.info-data ul {
+    padding: 0;
+    margin: 20px 0;
+    list-style: none;
+}
+.info-data ul li {
+    width: 32.9%;
+    /* display: inline-block; */
+    margin-bottom: 15px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++ Scet 12 CSS Close ++++++++++++++++++++++++++++++++ */
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++ Scet 13 CSS Open ++++++++++++++++++++++++++++++++ */
+
+.cta {
+    background: url(img/bg-cta.jpg) no-repeat;
+    max-width: 100%;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: 50%;
+    padding: 60px 0;
+    position: relative;
+    z-index: 1;
+    clear: both;
+}
+.cta h3 {
+    font-size: 44px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    color: #fff;
+    margin-bottom: 45px;
+    position: relative;
+    z-index: 1;
+    font-family: 'Zilla Slab', serif;
+}
+.cta h3 > span.bg {
+    font-size: inherit;
+    font-weight: inherit;
+    background: #a32b9e;
+    border-radius: 23px;
+    padding: 0 8px;
+}
+.cta h3 > span {
+    font-size: 38px;
+    font-weight: 300;
+}
+.cta h3::before {
+    width: 220px;
+    height: 12px;
+    background: #ffda2f;
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: -60px;
+}
+.cta ul {
+    display: inline-block;
+    margin-right: 60px;
+    list-style: none;
+    padding: 0;
+}
+.cta ul li {
+    position: relative;
+    padding-left: 50px;
+    margin-bottom: 25px;
+}
+.cta ul li::before {
+    content: "";
+    position: absolute;
+    background: url(img/bg15.png) no-repeat;
+    max-width: 127px;
+    height: 29px;
+    width: 100%;
+    background-size: 100%;
+    left: -40px;
+    top: 12px;
+    z-index: -1;
+}
+.cta ul li a {
+    color: #fff !important;
+    font-size: 30px;
+}
+.cta ul li a:hover {
+    text-decoration: none;
+}
+.cta ul li img {
+    position: absolute;
+    left: 0;
+    top: 4px;
+}
+.cta ul li a span {
+    display: block;
+    line-height: 16px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.discuss {
+    color: #fff;
+    font-size: 22px !important;
+}
+.discuss:hover {
+    text-decoration: none;
+    color: #fff;
+}
+.btn-red {
+    background: rgb(236,108,37);
+    background: linear-gradient(90deg, rgba(236,108,37,1) 0%, rgba(236,58,37,1) 100%) !important;
+    color: #fff !important;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 700;
+    box-shadow: 0 5px 15px #0000002e;
+    border-radius: 15px;
+    border: 1px solid transparent;
+}
+.btn-red:hover {
+    text-decoration: none;
+}
+.btn-red span {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    background: #000;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 5px;
+    border: 2px solid #ffda2f;
+}
+.cta-imgg {
+    max-width: 100%;
+    position: absolute;
+    bottom: 20px;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++ Scet 13 CSS Close ++++++++++++++++++++++++++++++++ */
+
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++ Scet 14 CSS Open ++++++++++++++++++++++++++++++++ */
+
+.Testimonial {
+    background-color: #f8f7fd;
+    position: relative;
+    z-index: 1;
+    padding: 60px 0;
+}
+.our-testimonial h2 > span {
+    font-size: 35px;
+    line-height: 35px;
+    color: #848488;
+    display: block;
+}
+.our-testimonial h2 {
+    font-size: 50px;
+    font-family: 'Zilla Slab', serif;
+    color: #262627;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+}
+.our-testimonial h2 + p {
+    max-width: 97%;
+    margin: 20px 0;
+    font-size: 17px;
+    color: #7c7c82;
+}
+.our-testimonial h2::before {
+    content: "";
+    position: absolute;
+    background: #ffda2f;
+    bottom: 2px;
+    left: 0;
+    width: 280px;
+    height: 12px;
+    z-index: -1;
+}
+
+button,
+input,
+select {
+	font-family: inherit;
+	font-size: 100%;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+/* html {
+	font-size: 12px;
+}
+
+body {
+	color: #000;
+	font-family: "Shippori Antique", sans-serif;
+	height: 100vh;
+	display: grid;
+	place-items: center;
+} */
+
+.content-wrapper {
+	height: 100%;
+	width: 100%;
+	max-width: 100rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 5rem;
+}
+
+h1 {
+	margin-bottom: calc(0.7rem + 0.5vmin);
+	font-size: calc(2.3rem + 1vmin);
+}
+
+.blue-line {
+	height: 0.3rem;
+	width: 6rem;
+	background-color: rgb(79, 143, 226);
+	margin-bottom: calc(3rem + 2vmin);
+}
+
+.wrapper-for-arrows {
+	position: relative;
+	width: 100%;
+	border-radius: 2rem;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	overflow: hidden;
+	display: grid;
+	place-items: center;
+}
+
+.review-wrap {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: calc(2rem + 1vmin);
+	width: 100%;
+}
+
+#imgDiv {
+	border-radius: 50%;
+	width: calc(6rem + 4vmin);
+	height: calc(6rem + 4vmin);
+	position: relative;
+	box-shadow: 5px -3px rgb(79, 143, 226);
+	background-size: cover;
+    display: none;
+	margin-bottom: calc(0.7rem + 0.5vmin);
+}
+
+.chicken {
+	background-image: url("https://media0.giphy.com/media/A8Cdznswn5vnG/200w.gif?cid=790b7611e8c5980ee7141bc18ec12c49962b871eb404ba5b&rid=200w.gif&ct=s");
+	width: 200px;
+	height: 250px;
+	position: absolute;
+	top: 12%;
+}
+
+#imgDiv::after {
+	content: "''";
+	font-size: calc(2rem + 2vmin);
+	font-family: sans-serif;
+	line-height: 150%;
+	color: #fff;
+	display: grid;
+	place-items: center;
+	border-radius: 50%;
+	background-color: rgb(79, 143, 226);
+	position: absolute;
+	top: 10%;
+	left: -10%;
+	width: calc(2rem + 2vmin);
+	height: calc(2rem + 2vmin);
+}
+
+#personName {
+	margin-bottom: calc(0.7rem + 0.5vmin);
+	font-size: calc(1rem + 0.5vmin);
+	letter-spacing: calc(0.1rem + 0.1vmin);
+	font-weight: 700;
+    font-size: 20px;
+}
+
+#profession {
+	font-size: calc(0.8rem + 0.3vmin);
+	margin-bottom: calc(0.7rem + 0.5vmin);
+	color: #2c3287d4;
+    font-weight: 500;
+}
+
+#description {
+	font-size: calc(0.8rem + 0.3vmin);
+	width: 70%;
+	max-width: 40rem;
+	text-align: center;
+	margin-bottom: 22px;
+	color: #545454;
+    font-weight: 500;
+    font-size: 19px;
+	line-height: 28px;
+}
+
+.arrow-wrap {
+	position: absolute;
+	top: 50%;
+}
+
+.arrow {
+	width: calc(1.4rem + 0.6vmin);
+	height: calc(1.4rem + 0.6vmin);
+	border: 1px solid #2c3287d4;
+	border-width: 0 calc(0.5rem + 0.2vmin) calc(0.5rem + 0.2vmin) 0;
+	cursor: pointer;
+	transition: transform 0.3s;
+}
+
+.arrow:hover {
+	transition: 0.3s;
+	transform: scale(1.15);
+}
+
+.left-arrow-wrap {
+	left: 5%;
+	transform: rotate(135deg);
+	-webkit-transform: rotate(135deg);
+}
+
+.right-arrow-wrap {
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	right: 5%;
+}
+
+.surprise-me-btn {
+	border: 2px solid rgb(79, 143, 226);
+	background-color: rgb(224, 238, 255);
+	color: rgb(79, 143, 226);
+	border-radius: 2rem;
+	padding: calc(0.5rem + 0.2vmin) 0;
+	width: calc(7rem + 5vmin);
+	text-align: center;
+	transition: background-color 0.3s, transform 0.3s;
+    display: none;
+	cursor: pointer;
+	margin-bottom: calc(1.4rem + 1vmin);
+}
+
+.surprise-me-btn:hover {
+	transition: background-color 0.3s, transform 0.3s;
+	background-color: rgb(255, 255, 255);
+	transform: rotate(5deg);
+}
+
+.move-head {
+	animation: moveHead 1.55s infinite;
+	animation-delay: -0.8s;
+}
+
+.hide-chicken-btn {
+	border: 2px solid rgb(226, 89, 79);
+	background-color: rgb(255, 224, 224);
+	color: rgb(226, 79, 79);
+	border-radius: 2rem;
+	padding: calc(0.5rem + 0.2vmin) 0;
+	width: calc(10rem + 5vmin);
+	text-align: center;
+	transition: background-color 0.3s, transform 0.3s;
+	cursor: pointer;
+	margin-bottom: calc(1.4rem + 1vmin);
+}
+
+.hide-chicken-btn:hover {
+	transition: background-color 0.3s, transform 0.3s;
+	background-color: rgb(255, 255, 255);
+	transform: rotate(5deg);
+}
+
+@keyframes moveHead {
+	0% {
+	}
+	25% {
+		transform: translate(0.5rem, 1rem) rotate(5deg);
+	}
+	100% {
+		transform: translate(0, 0) rotate(-5deg);
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.content-wrapper {
+		width: 100%;
+	}
+}
+
+/* ++++++++++++++++++++++++++++++++++++++ Scet 14 CSS Close ++++++++++++++++++++++++++++++++ */
+
+
+
+/* =================================== Footer code open =================================== */
+
+.footer {
+    padding: 60px 0 30px 0;
+    position: relative;
+    background: url(img/bg-foot.jpg) no-repeat;
+    max-width: 100%;
+    width: 100%;
+    background-size: cover;
+    height: 100%;
+}
+.footer img {
+    max-width: 34%;
+    margin-bottom: 15px;
+}
+.footer p {
+    font-size: 13px;
+    color: #bcc0ca;
+    margin: 0;
+}
+.Foot-brand {
+    text-align: right;
+    margin-top: 40px;
+}
+.Foot-brand img {
+    max-width: 100% !important;
+    text-align: right;
+}
+.footer h4 {
+    color: #ffda2f;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 18px;
+}
+.footer ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.footer ul li {
+    margin-bottom: 5px;
+}
+.footer ul li a {
+    color: #bcc0ca !important;
+    transition: .2s all;
+    font-size: 14px;
+    /* font-weight: ; */
+}
+.footer ul li a:hover {
+    color: #fff !important;
+    text-decoration: none;
+}
+.Line {
+    border: 0.2px solid #626262;
+    width: 100%;
+    margin: 25px 0;
+}
+#Social-icons {
+    margin-right: 10px;
+}
+.term-links {
+    position: relative;
+    text-align: center;
+}
+.term-links li {
+    display: inline-block;
+    position: relative;
+    padding: 0px 25px;
+    font-size: 12px;
+    text-align: center;
+}
+.term-links li::before {
+    content: "";
+    height: 4px;
+    width: 4px;
+    position: absolute;
+    right: -2px;
+    top: 8px;
+    background-color: #d2d2d2;
+    border-radius: 50px;
+}
+
+/* =================================== Footer code Close =================================== */
+
+
+
+/* ::::::::::::::::::::::::::: Logo Design Sect 1 CSS open ::::::::::::::::::::::::::: */
+
+.CONTACT-banner {
+    background: url(img/contact-banner.png) no-repeat;
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    margin-top: -111px;
+    padding-top: 200px;
+    height: 850px;
+    background-position: center;
+    overflow: hidden;
+    background-color: #f8f7fc;
+    /* position: relative; */
+    z-index: 1;
+}
+.FAQS-banner {
+    background: url(img/faq-banner.png) no-repeat;
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    margin-top: -111px;
+    padding-top: 200px;
+    height: 850px;
+    background-position: center;
+    overflow: hidden;
+    background-color: #f8f7fc;
+    /* position: relative; */
+    z-index: 1;
+}
+.ABOUT-banner {
+    background: url(img/about-banner.png) no-repeat;
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    margin-top: -111px;
+    padding-top: 200px;
+    height: 850px;
+    background-position: center;
+    overflow: hidden;
+    background-color: #f8f7fc;
+    /* position: relative; */
+    z-index: 1;
+}
+.COMBO-banner {
+    background: url(img/combo-banner.png) no-repeat;
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    margin-top: -111px;
+    padding-top: 200px;
+    height: 850px;
+    background-position: center;
+    overflow: hidden;
+    background-color: #f8f7fc;
+    /* position: relative; */
+    z-index: 1;
+}
+.DIGITAL-banner {
+    background: url(img/digital-banner.png) no-repeat;
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    margin-top: -111px;
+    padding-top: 200px;
+    height: 850px;
+    background-position: center;
+    overflow: hidden;
+    background-color: #f8f7fc;
+    /* position: relative; */
+    z-index: 1;
+}
+.APPS-banner {
+    background: url(img/app-banner.png) no-repeat;
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    margin-top: -111px;
+    padding-top: 200px;
+    height: 850px;
+    background-position: center;
+    overflow: hidden;
+    background-color: #f8f7fc;
+    /* position: relative; */
+    z-index: 1;
+}
+.VIDEO-banner::after {
+    content: "";
+    background: url(img/video-bg.png) no-repeat;
+    max-width: 381px;
+    width: 100%;
+    height: 508px;
+    position: absolute;
+    background-size: 100%;
+    left: 150px;
+    right: 0;
+    margin: auto;
+    top: 160px;
+    z-index: 2;
+}
+.VIDEO-banner {
+    background: url(img/video-banner.png) no-repeat;
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    margin-top: -111px;
+    padding-top: 200px;
+    height: 850px;
+    background-position: center;
+    overflow: hidden;
+    background-color: #f8f7fc;
+    /* position: relative; */
+    z-index: 1;
+}
+.BRAND-banner {
+    background: url(img/brand-banner.png) no-repeat;
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    margin-top: -111px;
+    padding-top: 200px;
+    height: 850px;
+    background-position: center;
+    overflow: hidden;
+    background-color: #f8f7fc;
+    /* position: relative; */
+    z-index: 1;
+}
+.WEB-banner {
+    background: url(img/web-banner.png) no-repeat;
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    margin-top: -111px;
+    padding-top: 200px;
+    height: 850px;
+    background-position: center;
+    overflow: hidden;
+    background-color: #f8f7fc;
+    /* position: relative; */
+    z-index: 1;
+}
+.logo-banner {
+    background: url(img/Logo-banner.png) no-repeat;
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    margin-top: -111px;
+    padding-top: 200px;
+    height: 850px;
+    background-position: center;
+    overflow: hidden;
+    background-color: #f8f7fc;
+    /* position: relative; */
+    z-index: 1;
+}
+.info-banner h1 {
+    font-size: 63px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 70px;
+    letter-spacing: 0.1px;
+    margin-bottom: 20px;
+    position: relative;
+    font-family: 'Zilla Slab', serif;
+    z-index: 1;
+}
+.info-banner h1::before {
+    position: absolute;
+    content: "";
+    width: 210px;
+    height: 12px;
+    left: 0;;
+    bottom: 6px;
+    background: #fed92f;
+    z-index: -1;
+}
+.info-banner p {
+    color: #cecece;
+    font-size: 16px;
+}
+.btn5 {
+    font-size: 18px;
+    color: #000;
+    font-weight: 700;
+    padding: 15px 30px;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    box-shadow: 0 5px 15px #0000002e;
+    text-transform: uppercase;
+}
+.btn5 span {
+    width: 10px;
+    height: 10px;
+    /* position: relative; */
+    background: #000;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 7px;
+    border: 2px solid #ffda2f;
+}
+.btn5:hover {
+    color: #000;
+    text-decoration: none;
+}
+.our-site3 {
+    padding: 40px 20px;
+    background-color: #fff;
+    border-radius: 60px 10px 10px 10px;
+    box-shadow: 0 5px 15px #00000014;
+    margin: -93px 0 0 0;
+}
+.our-site-ab {
+    padding: 40px 20px;
+    background-color: #fff;
+    border-radius: 60px 10px 10px 10px;
+    box-shadow: 0 5px 15px #00000014;
+    margin: 30px 0 0 0;
+}
+.our-site2 {
+    padding: 40px 20px;
+    background-color: #fff;
+    border-radius: 60px 10px 10px 10px;
+    box-shadow: 0 5px 15px #00000014;
+    margin: 93px 0 0 0;
+}
+.our-site5 {
+    padding: 40px 20px;
+    background-color: #fff;
+    border-radius: 60px 10px 10px 10px;
+    box-shadow: 0 5px 15px #00000014;
+    margin: -40px 0 0 0;
+}
+.our-site {
+    padding: 40px 20px;
+    background-color: #fff;
+    border-radius: 60px 10px 10px 10px;
+    box-shadow: 0 5px 15px #00000014;
+    margin: 29px 0 0 0;
+}
+.Hding13 {
+    font-size: 16px;
+    font-weight: 600;
+}
+.owl-stage {
+    display: flex;
+    align-items: center;
+}
+/* ::::::::::::::::::::::::::: Logo Design Sect 1 CSS close ::::::::::::::::::::::::::: */
+
+
+
+/* ::::::::::::::::::::::::::: Logo Design Sect 2 CSS Open ::::::::::::::::::::::::::: */
+
+.our-service h2 {
+    color: #262627;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Zilla Slab', serif;
+    position: relative;
+    z-index: 1;
+    line-height: 55px;
+}
+.our-service h2 span {
+    color: #613df7;
+}
+.our-service h2::before {
+    content: "";
+    position: absolute;
+    background: #ffda2f;
+    bottom: 2px;
+    left: 0;
+    width: 310px;
+    height: 10px;
+    z-index: -1;
+}
+.our-service h6 {
+    font-family: 'Zilla Slab', serif;
+    color: #3f3694;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 40px 0 0 0;
+}
+.our-service {
+    padding: 0 0 60px 0;
+    background: #f8f7fc;
+    position: relative;
+    z-index: 1;
+    clear: both;
+}
+.info-service {
+    position: relative;
+    z-index: 1;
+}
+.info-service figure img {
+    box-shadow: 0 5px 15px #00000038;
+    max-width: 100%;
+}
+.hding14 {
+    color: #262627;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    margin-bottom: 20px;
+}
+.hding14 span {
+    color: #ec3a25;
+    font-weight: 600;
+}
+.para6 {
+    font-size: 18px;
+    color: #7c7c82;
+}
+.text-ser {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.text-ser li {
+    margin-bottom: 8px;
+    color: #3f3694;
+    font-size: 16px;
+    font-weight: 600;
+}
+.text-ser img {
+    margin-right: 12px;
+}
+.COntent-info {
+    margin-top: 40px;
+}
+.info-service::before {
+    content: "";
+    background: url(img/Down.png) no-repeat;
+    max-width: 36px;
+    width: 100%;
+    height: 93px;
+    position: absolute;
+    background-size: 100%;
+    left: -80px;
+    top: -2px;
+    z-index: -1;
+}
+.our-service::before {
+    content: "";
+    background: url(img/bg4.png) no-repeat;
+    max-width: 290px;
+    width: 100%;
+    height: 114px;
+    position: absolute;
+    background-size: 100%;
+    left: 0px;
+    bottom: 0;
+    z-index: -2;
+    transform: skewY(-2deg);
+}
+
+/* ::::::::::::::::::::::::::: Logo Design Sect 2 CSS close ::::::::::::::::::::::::::: */
+
+
+
+
+/* ::::::::::::::::::::::::::: Logo Design Sect 3 CSS Open ::::::::::::::::::::::::::: */
+
+.our-thumb2 {
+    background: url(img/bg-thumb2.jpg) no-repeat;
+    max-width: 100%;
+    width: 100%;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    padding: 40px 0;
+}
+.info-thumb h4 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #fff;
+}
+.info-thumb img {
+    margin-bottom: 12px;
+}
+.our-thumb2::after {
+    content: "";
+    position: absolute;
+    background: url(img/bg5.png) no-repeat;
+    max-width: 344px;
+    height: 339px;
+    width: 100%;
+    background-size: 100%;
+    right: 0;
+    top: -85px;
+}
+
+/* ::::::::::::::::::::::::::: Logo Design Sect 3 CSS close :::::::::::::::::::::::::: */
+
+
+
+/* ::::::::::::::::::::::::::: Logo Design Sect 5 CSS Open :::::::::::::::::::::::::: */
+
+.info-quality {
+    display: flex;
+    align-items: center;
+    padding: 34px;
+    background: #fff;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px #0000002b;
+    gap: 22px;
+}
+.our-quality [class*="col-"]:nth-child(odd) .info-quality:first-child {
+    border-radius: 5px 50px 5px 5px;
+}
+.our-quality [class*="col-"]:nth-child(odd) .info-quality:last-child {
+    border-radius: 5px 5px 50px 5px;
+}
+.info-quality:last-child {
+    margin-bottom: 0;
+}
+.our-quality [class*="col-"]:nth-child(2) .info-quality:first-child {
+    border-radius: 50px 5px 5px 5px;
+}
+.our-quality [class*="col-"]:nth-child(2) .info-quality:last-child {
+    border-radius: 5px 5px 5px 50px;
+}
+.our-quality [class*="col-"]:nth-child(odd) .info-quality:first-child {
+    border-radius: 5px 50px 5px 5px;
+}
+.info-quality img {
+    max-width: 100%;
+}
+.info-quality h4 {
+    display: inline-block;
+    /* margin-left: 30px; */
+    margin-bottom: 0;
+    font-size: 26px;
+    font-weight: 700;
+    padding-top: 7px;
+    position: relative;
+}
+.info-quality h4 > span {
+    display: block;
+    /* vertical-align: baseline; */
+    font-weight: 300;
+    font-size: 24px;
+}
+.info-quality h4::before {
+    content: "";
+    background: #613df7;
+    width: 40px;
+    height: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.our-quality {
+    background: #f8f7fd;
+    position: relative;
+    z-index: 1;
+    padding: 60px 0;
+}
+
+/* ::::::::::::::::::::::::::: Logo Design Sect 5 CSS close :::::::::::::::::::::::::: */
+
+
+
+/* ::::::::::::::::::::::::::: Logo Design Sect 6 CSS Open :::::::::::::::::::::::::: */
+
+.our-talk {
+    background: url(img/bg-talk.png) no-repeat;
+    max-width: 100%;;
+    width: 100%;
+    background-size: cover;
+    height: 100%;
+    background-position: 10%;
+    position: relative;
+    clear: both;
+    z-index: 1;
+    padding: 30px 0 60px 0;
+}
+.our-talk h2 {
+    margin-bottom: 0;
+    color: #ffda2f;
+    font-size: 73px;
+}
+.info-talk {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    justify-content: space-evenly;
+}
+.info-talking img {
+    margin-right: 13px;
+}
+.info-talking li {
+    display: inline-block;
+    padding: 0 20px;
+}
+.info-talking a {
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+}
+.info-talking {
+    padding: 22px 0 0 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.new-pf {
+    padding: 0px 0 60px 0;
+    background-color: #f8f7fd;
+}
+.CONTENT-01 {
+    max-width: 80%;
+}
+.sect12 {
+    position: relative;
+    z-index: 1;
+    padding: 60px 0 0 0;
+    background-color: #f8f7fd;
+}
+
+/* ::::::::::::::::::::::::::: Logo Design Sect 6 CSS close ::::::::::::::::::::::::: */
+
+
+
+/* ::::::::::::::::::::::::::: Logo Design Sect 12 CSS Open ::::::::::::::::::::::::: */
+
+.info-step {
+    padding: 8px 15px;
+    border-radius: 25px;
+    transition: .5s all;
+    background: transparent;
+}
+.info-step span {
+    font-size: 42px;
+    color: #b52fa0;
+    font-weight: 600;
+    letter-spacing: -2px;
+    /* vertical-align: middle; */
+    margin-right: 5px;
+}
+.info-step h4 {
+    display: inline-block;
+    font-size: 18px;
+    color: #262627;
+    font-weight: 600;
+    margin-bottom: 0;
+    line-height: 18px;
+}
+.info-step h4 + p {
+    color: #7c7c82;
+    font-size: 13px;
+    min-height: 110px;
+    margin-bottom: 0;
+}
+.info-step:hover {
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(248,247,253,1) 55%, rgba(250,223,153,1) 100%);
+    box-shadow: 5px 3px 9px #b52fa038;
+}
+.our-step {
+    padding: 0 0 60px 0;
+    background-color: #f8f7fd;
+}
+
+
+/* ::::::::::::::::::::::::::: Logo Design Sect 12 CSS close ::::::::::::::::::::::::: */
+
+
+
+/* ------------------------- About Css sect1 open ------------------------- */
+
+.sect-about {
+    padding: 60px 0 100px 0;
+    position: relative;
+    z-index: 1;
+}
+.abouthding {
+    font-size: 50px;
+    font-weight: 600;
+    color: #848488;
+    font-family: 'Zilla Slab', serif;
+    letter-spacing: 1px;
+    margin: 0;
+}
+.abouthding1 {
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0;
+    font-family: 'Zilla Slab', serif;
+    color: #262627;
+    position: relative;
+    z-index: 1;
+}
+.abouthding1::before {
+    content: "";
+    position: absolute;
+    background: #ffda2f;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 280px;
+    height: 12px;
+    z-index: -1;
+    margin: 0 auto;
+}
+.aboutpara {
+    font-size: 18px;
+    color: #7c7c82;
+    margin: 20px 0;
+    position: relative;
+    font-weight: 500;
+}
+.info-offer {
+    text-align: center;
+    position: relative;
+}
+.info-offer img {
+    max-width: 100%;
+    border-radius: 60px 12px 5px 5px;
+}
+.info-offer::before {
+    position: absolute;
+    content: "";
+    width: 85%;
+    height: 95%;
+    left: -8px;
+    top: -8px;
+    background: rgb(200,53,146);
+    background: linear-gradient(180deg, rgba(200,53,146,1) 0%, rgba(86,19,229,1) 100%);
+    border-radius: 60px 12px 12px 12px;
+    z-index: -1;
+}
+.info-offer h4 {
+    color: #262627;
+    position: relative;
+    z-index: 1;
+    font-size: 21px;
+    font-weight: 600;
+    margin: -120px 0 0 0;
+}
+.info-offer h4::before {
+    position: absolute;
+    content: "";
+    background: #ffda2f;
+    width: 30px;
+    height: 4px;
+    top: -5px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.info-offer::after {
+    content: "";
+    background: url(img/left.png) no-repeat;
+    max-width: 88px;
+    width: 100%;
+    height: 28px;
+    position: absolute;
+    background-size: 100%;
+    right: 20px;
+    bottom: -60px;
+    z-index: 1;
+}
+
+/* ------------------------- About Css sect1 Close ------------------------- */
+
+
+/* ++++++++++++++++++++++++++++++++ Faqs Csss Open ++++++++++++++++++++++++++++++++ */
+
+.faqsect {
+    background-color: #f8f7fc;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    padding: 20px 0 60px 0;
+    clear: both;
+}
+.faqsH {
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0;
+    font-family: 'Zilla Slab', serif;
+    color: #262627;
+    position: relative;
+    z-index: 1;
+}
+.faqsH::before {
+    content: "";
+    position: absolute;
+    background: #ffda2f;
+    bottom: 6px;
+    left: 0;
+    right: 0;
+    width: 280px;
+    height: 12px;
+    z-index: -1;
+    margin: 0 auto;
+}
+.faq-parent {
+    background-color: #fff;
+    padding: 80px 0;
+    border-radius: 60px  5px 5px 5px;
+    box-shadow: 0 5px 15px #0000001f;
+    margin-top: 90px;
+    position: relative;
+}
+.det-faq h4 {
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 15px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.det-faq p {
+    color: #96939b;
+    margin: 0 0 0 60px;
+    font-size: 16px;
+}
+.det-faq {
+    position: relative;
+    margin-bottom: 50px;
+    padding-left: 55px;
+}
+.faq-parent::before {
+    content: "";
+    background: url(img/Down.png) no-repeat;
+    max-width: 36px;
+    width: 100%;
+    height: 93px;
+    position: absolute;
+    background-size: 100%;
+    left: -80px;
+    top: -2px;
+    z-index: -1;
+}
+
+/* ++++++++++++++++++++++++++++++++ Faqs Csss Close ++++++++++++++++++++++++++++++++ */
+
+
+
+/* ++++++++++++++++++++++++++++++++ Contact Csss Open ++++++++++++++++++++++++++++++++ */
+
+.Contactsect {
+    position: relative;
+    z-index: 1;
+    clear: both;
+    padding: 60px 0;
+    background-color: #f8f7fc;
+}
+.contactpara {
+    font-size: 17px;
+    max-width: 80%;
+    color: #7c7c82;
+    margin: 20px 0 40px 0;
+}
+.required1 {
+    height: 50px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #9f9f9f;
+    border-radius: 0;
+    margin-bottom: 25px;
+    font-size: 14px;
+    color: #f8386b;
+    width: 100%;
+    padding: 0 0 0 15px;
+}
+#userfa {
+    position: absolute;
+    font-size: 20px;
+    right: 10px;
+    top: 10px;
+    width: 20px;
+    text-align: center;
+    color: #9f9f9f;
+}
+#userfa2 {
+    position: absolute;
+    font-size: 30px;
+    right: 10px;
+    top: 10px;
+    width: 20px;
+    text-align: center;
+    color: #9f9f9f;
+}
+.form-group {
+    position: relative;
+}
+input:focus {
+    outline: 1.5px solid !important;
+    /* outline: 5px auto -webkit-focus-ring-color; */
+    border: 1px solid transparent;
+}
+.Contactsect::before {
+    content: "";
+    background: url(img/Down.png) no-repeat;
+    max-width: 36px;
+    width: 100%;
+    height: 93px;
+    position: absolute;
+    background-size: 100%;
+    left: 35px;
+    top: 28%;
+    z-index: -1;
+}
+.cd {
+    color: #2b1683;
+    font-size: 35px;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 20px;
+}
+.cd::before {
+    background: #ffda30;
+    position: absolute;
+    content: "";
+    width: 80%;
+    height: 10px;
+    bottom: 4px;
+    left: 0;
+    z-index: -1;
+}
+.contact-detail p {
+    color: #464545;
+    font-size: 18px;
+}
+.cont-more h5 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.cont-more p {
+    font-size: 1rem;
+    color: #464545 !important;
+    font-weight: 500;
+}
+.cont-more {
+    margin-top: 28px;
+}
+.contact-detail {
+    margin-top: 30%;
+}
+
+
+/* ++++++++++++++++++++++++++++++++ Contact Csss Close +++++++++++++++++++++++++++++++ */
